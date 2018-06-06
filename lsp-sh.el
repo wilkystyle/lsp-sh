@@ -13,7 +13,7 @@
 (lsp-define-stdio-client lsp-sh
                          "sh"
                          #'(lambda () default-directory)
-			                   '("bash-language-server" "start"))
+                         '("bash-language-server" "start"))
 
 (provide 'lsp-sh)
 ;;; lsp-sh.el ends here
